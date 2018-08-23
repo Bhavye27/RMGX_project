@@ -3,11 +3,15 @@ i {
 }
 
 .body-background {
-    background: url(images/main1.jpg);
-    background-size: 1370px 500px;
-    background-position: center; 
+    background: url(images/main1.jpg) no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: 100% 100%;
+/*    background-position: center; */
+/*
     height: 500px;
     width: 500px;
+*/
 }
 
 .main {
@@ -106,7 +110,7 @@ i {
     font-family: 'Acme', sans-serif;
     color: black;
     text-align: right;
-    padding-right: 250px;    
+    padding-right: 25%;    
 }
 
 .line {
@@ -150,4 +154,60 @@ i {
     border: 2px solid black;
     border-radius: 50px;
     padding: 4px;
+}
+
+.borders:hover {
+    border-top: solid 2px #996515;
+}
+
+.headings {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    color: whitesmoke;
+}
+
+.underline {
+    margin-left: 47%;
+    margin-right: 47%;
+    border-color: #996515;
+}
+
+.view-room {
+    text-align: center;
+    align-content: center;
+}
+
+.left-arrow { 
+    width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-right: 10px solid white;
+	border-bottom: 5px solid transparent;
+}
+
+.right-arrow {
+    width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 10px solid white;
+	border-bottom: 5px solid transparent;
+}
+
+.room {
+    width: 100%;
+    height: 90%;
+    border: 3px solid silver;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.room-name {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.video1 {
+    border: 1px solid silver;
 }
