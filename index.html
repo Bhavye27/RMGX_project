@@ -95,7 +95,7 @@
         <div class="dropdown">
             <span class="contact">CONTACT</span>
                     <div class="dropdown-content">
-                        <span class="contact1">Room Listing</span>&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right right-arrow"></i>
+                        <span class="contact1">Room Listing</span>&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"></i>
                         <span class="contact1">Custom Room Listing</span>
                         <span class="contact1">Restaurant</span>
                     </div>
@@ -159,34 +159,22 @@
         
 </div>
 <br><br>
-    <!--Headings for calendar-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-1"></div>       
-            <div class="calendar col-md-2">Arrival Date
-    </div>
-            <div class="calendar col-md-2">Departure Date
-    </div>
-            <div class="col-md-2">
-    </div>
-            <div class="col-md-2">
-    </div>
-            <div class="col-md-2">
-    </div>
-            <div class="col-md-1"></div>
-        </div>
-    </div>
     <!--Details of the person making the booking-->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-1"></div>       
-    <div class="col-md-2">
+    <div class="calendar col-md-2">
+        Arrival Date<p>
     <input class="arrival" type="date" value="2018-01-01"/>
+    </p>
+            </div>
+            <div class="calendar col-md-2">
+                Departure Date<p>
+    <input class="arrival" type="date" value="2018-01-01"/>
+                </p>
     </div>
             <div class="col-md-2">
-    <input class="arrival" type="date" value="2018-01-01"/>
-    </div>
-            <div class="col-md-2">
+                <br>
     <select class="drop2">
             <option value="Suite1" class="suite" >Round Cove Suite</option>
             <option value="Suite2" class="suite">Grand Penthouse</option>
@@ -194,6 +182,7 @@
     </select>
     </div>
             <div class="col-md-2">
+                <br>
     <select class="drop2">
             <option value="1" class="adult">One Adult</option>
             <option value="2" class="adult">Two Adults</option>
@@ -203,6 +192,7 @@
     </select>
     </div>
             <div class="col-md-2">
+                <br>
     <button type="button" class="button2"><b>Make Reservation</b></button>
     </div>
             <div class="col-md-1"></div>
@@ -217,32 +207,32 @@
     
     <div class="container">
         <div class="row">
-        <div class="left-arrow col-md-4"></div>
+        <div class="left-arrow col-md-4" onclick="leftImage()"></div>
            <div class="col-md-4 headings"><h6 align="center">View all Rooms</h4></div>
-        <div class="right-arrow col-md-4"></div>
+        <div class="right-arrow col-md-4" onclick="rightImage()"></div>
     </div>
 </div>
     <br><br>
     <div class="container">
         <div class="row">
     <div class="col-md-3">
-        <img class="img-responsive room" src="images/room1.jpg" alt="room1">
+        <img id="first-room" class="img-responsive room" src="images/room1.jpg" alt="room1">
         <p class="room-name">Executive Suite</p>
     </div>
         
     <div class="col-md-3">
-        <img class="img-responsive room" src="images/room2.jpg" alt="room1">
+        <img id="second-room" class="img-responsive room" src="images/room2.jpg" alt="room2">
         <p class="room-name">Junior Suite</p>
     </div>
         
     <div class="col-md-3">
-        <img class="img-responsive room" src="images/room3.jpg" alt="room1">
+        <img id="third-room" class="img-responsive room" src="images/room3.jpg" alt="room3">
         <p class="room-name">Deluxe Suite</p>
     </div>
 
         
     <div class="col-md-3">
-        <img class="img-responsive room" src="images/room4.jpg" alt="room1">
+        <img id="fourth-room" class="img-responsive room" src="images/room4.jpg" alt="room4">
         <p class="room-name">Presidential Suite</p>
     </div>
 </div>
