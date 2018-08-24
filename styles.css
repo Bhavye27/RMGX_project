@@ -215,7 +215,7 @@ i {
 
 .paragraph {
     font-family: 'Raleway', sans-serif;
-    font-size: 1vw ;
+    font-size: 0.9vw ;
     color: antiquewhite;
 }
 
@@ -233,18 +233,22 @@ i {
 
 .fb-styles {
     background-color: #4167B2;
-    font-size: 4.5vw;
+    font-size: 3.4vw;
     padding-left: 45%;
 }
 
 .twitter-styles {
     background-color: #1DA1F3;
-    font-size: 4.5vw;
+    font-size: 3.4vw;
     padding-left: 45%;
 }
 
 .insta-styles {
    background-color: dimgrey;
-   font-size: 4.5vw;
+   font-size: 3.4vw;
    padding-left: 45%; 
+}
+
+.big-grid {
+    height: 21%;
 }
