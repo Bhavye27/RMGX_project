@@ -13,9 +13,9 @@ i {
     background-color: black;
 }
 
-.phone {
+.link-color {
     color: white;
-}
+} 
 
 .language, .suite, .adult {
     color: black;
@@ -26,6 +26,8 @@ i {
     text-align: center;
     background-color: #211F20;
     opacity: 0.8;
+    font-size: 1.5vw;
+    color: white;
 }
 
 .second-navbar {
@@ -34,12 +36,13 @@ i {
     color: white;
     background-color: #211F20;
     opacity: 0.9;
+    font-size: 1.5vw;
+    color: white;
 }
 
 .second-navbar-list {
     color: white;
 }
-
 
 .third-navbar {
     font-family: fantasy;
@@ -48,7 +51,6 @@ i {
     background-color: #211F20;
     opacity: 0.8;
 }
-
 
 .dropdown1 {
     position: relative;
@@ -139,11 +141,12 @@ i {
 @media(min-width: 790px) {
     .col-1-5 {
         width: 20%;
+        padding-right: 15px;
+        padding-left: 15px;
         float: left;
         position: relative;
         min-height: 1px;
-        padding-right: 15px;
-        padding-left: 15px;
+        
     }
 }
 
@@ -209,36 +212,46 @@ i {
     color: antiquewhite;
 }
 
-.align-heading1 {
-    padding-left: 35%;
-    padding-right: 35%;
-    font-size: 2vw;
-}
-
-.align-heading2 {
-    padding-left: 25%;
-    padding-right: 25%;
-    font-size: 2vw;
-}
-
 .fb-styles {
     background-color: #4167B2;
     font-size: 3.4vw;
-    padding-left: 45%;
 }
 
 .twitter-styles {
     background-color: #1DA1F3;
     font-size: 3.4vw;
-    padding-left: 45%;
 }
 
 .insta-styles {
    background-color: dimgrey;
-   font-size: 3.4vw;
-   padding-left: 45%; 
+   font-size: 3.4vw; 
 }
 
 .big-grid {
     height: 20%;
+}
+
+.para1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: left;
+}
+
+.para2 {
+    text-align: center;
+}
+
+.para3 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: right;
+}
+
+.useful-links {
+    text-align: center;
+}
+
+.bottom-bar {
+    background-color: #211F20;
+    opacity: 0.9;
 }
