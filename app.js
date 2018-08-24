@@ -41,3 +41,6 @@ function rightImage()
     document.getElementById("third-room").src = "images/room7.jpg";
     document.getElementById("fourth-room").src = "images/room8.jpg";
 }
+$('.datepicker').datepicker({
+            uiLibrary: 'bootstrap4'
+        });
