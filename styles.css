@@ -1,10 +1,12 @@
-i {
-    color: white;
-}
+/*CSS of the whole webpage*/
 
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+}
+
+i {
+    color: white;
 }
 
 .positioning {
@@ -52,7 +54,10 @@ html, body {
 .personal {
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
+
 .third-navbar {
     font-family: fantasy;
     text-align: center;
@@ -149,6 +154,7 @@ html, body {
     font-family: 'Acme', sans-serif;
 }
 
+/*Media queries*/
 @media(min-width: 790px) {
     .col-1-5 {
         width: 20%;
@@ -213,6 +219,11 @@ html, body {
     color: white;
 }
 
+.four-rooms, .bottom-section {
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
 .video1 {
     border: 1px solid silver;
 }
@@ -260,11 +271,12 @@ html, body {
 
 .useful-links {
     text-align: center;
-    padding-top: 3vw;
+    padding-top: 5%;
 }
 
 .bottom-bar {
     background-color: #211F20;
     opacity: 0.9;
-    padding-top: 2vw;
+    padding-top: 5%;
+    padding-bottom: 2%;
 }

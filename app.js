@@ -1,4 +1,4 @@
-
+//Functions that changes the 4 images in the middle section of th webpage
 function leftImage()
 {
     document.getElementById("first-room").src = "images/room1.jpg";
